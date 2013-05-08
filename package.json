@@ -1,0 +1,22 @@
+{
+    "name": "client-exception-logger",
+    "version": "0.0.1",
+    "author": "lylijincheng<lylijincheng@hotmail.com>",
+    "description": "",
+    "scripts": {
+        "start": "node ./index.js",
+        "test": "./public/index.html"
+    },
+    "respository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "url": "*",
+        "querystring": "*",
+        "mime": "*"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
