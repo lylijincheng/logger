@@ -11,7 +11,7 @@ var api = {
     "method": "POST",
     "url": "/add"
   }
-}
+};
 
 var filepath = __dirname + '/archive';
 
@@ -28,7 +28,7 @@ function requestHandler(req, res) {
 
 } 
 
-function routeXHR(req, res) { console.log(req)
+function routeXHR(req, res) { 
   var body = '';
 
   var status = {
